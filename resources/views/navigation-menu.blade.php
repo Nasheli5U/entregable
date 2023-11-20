@@ -114,6 +114,10 @@
                                     {{ __('Manage Account') }}
                                 </div>
 
+                                <x-dropdown-link href="{{ route('admin.dashboard') }}">
+                                    {{ __('Administrador') }}
+                                </x-dropdown-link>
+
                                 <x-dropdown-link href="{{ route('profile.show') }}">
                                     {{ __('Profile') }}
                                 </x-dropdown-link>
@@ -225,6 +229,10 @@
                             {{ __('Manage Account') }}
                         </div>
 
+                        <x-dropdown-link href="{{ route('admin.dashboard') }}">
+                            {{ __('Administrador') }}
+                        </x-dropdown-link>
+                        
                         <x-dropdown-link href="{{ route('profile.show') }}">
                             {{ __('Profile') }}
                         </x-dropdown-link>

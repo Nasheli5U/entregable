@@ -98,7 +98,7 @@
         </div>
     </form>
 
-    <form action="{{ route('admin.posts.destroy', $post->id) }}" method="post" id="delete">
+    <form action="{{ route('admin.posts.destroy', $post->slug) }}" method="post" id="delete">
         @csrf
         @method('delete')
 
