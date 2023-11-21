@@ -3,7 +3,7 @@ class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-f
 aria-label="Sidebar">
 <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
     <h2 class="text-3xl font-semibold mb-6 text-gray-500">
-        <a href="/">Cvsg Courses</a>
+        <a href="/">Panel</a>
     </h2>
     <ul class="space-y-2">
         @foreach ($links as $link)

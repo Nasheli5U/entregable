@@ -73,7 +73,7 @@ class CategoryController extends Controller
             'name' => $request->name,
         ]);
 
-        return Redirect::route('admin.categories.edit', $category);
+        return Redirect::route('admin.categories.index', $category);
     }
 
     /**

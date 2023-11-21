@@ -2,6 +2,8 @@
     <figure class="mt-12">
         <img src="{{ asset('image/portada.jpg') }}" alt="" srcset=""
             class="aspect-[3/1] w-full object-cover object-center">
+
+
     </figure>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-24">
